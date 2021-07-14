@@ -1,557 +1,795 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index.html</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/reboot.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index.php</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/reboot.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-</head>
-<body>
-  <!-- heder-start -->
-  <header class="header">
-    <section class=" header_section">
-      <a href="#" id="logo" class="d-block" target="_blank"><img  src="assets/img/logo1.png" alt=""></a>
-  
-      <label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
-      <input type="checkbox" id="toggle-1">
-  
-      <nav>
-      <ul class="mb-0">
-          <li><a href="#">  What we do  </a></li>
-          <li><a href="#">   Industries   </a></li>
-          <li><a href="#">   Community building   </a></li>
-          <li><a href="#">   Wehive  <span class="top"> New </span> </a></li>
-          <li><a href="#">   Marketplace   </a></li>
-          <li><a href="#">   Resources   </a></li>
-          <li><a href="#" class=" header_btn">    Get in Touch    </a></li>
-          
-      </ul>
-      </nav>
-    </section>
-</header>  
-  <!-- heder-end -->
-  <!-- banner-start -->
-  <section class="banner_start">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">1</li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1">2</li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2">3</li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3">4</li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="banner_info">
-            <h6> Breathing Tech into your Ideas </h6>
-            <h2>  We Build Mobile Apps that <span class="d-md-block">  People Love </span></h2>
-            <p>  We are a team of professionals focused on the innovation of web mobile software technology design & development.  </p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="banner_info">
-            <h6> Breathing Tech into your Ideas </h6>
-            <h2> Outsource with us and <span class="d-md-block"> accelerate transformation </span></h2>
-            <p> Trusted by ambitious companies, brands, and founders. </p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="banner_info">
-            <h6> Breathing Tech into your Ideas </h6>
-            <h2>  Exactly what you need,  <span class="d-md-block">  right when you need it. </span></h2>
-            <p>  One size doesn't fit all, so we offer a range of flexible engagement models to fit the needs of nearly any situation. </p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="banner_info">
-            <h6> Breathing Tech into your Ideas </h6>
-            <h2>  Build. Launch. Grow. </h2>
-            <p>   We are a startup-minded team with deep product-knowledge that helps businesses grow with product development.  </p>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev d-none" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next d-none" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <div class="container">
-      <ul class="slide_img">
-        <li> <img class="img-fluid" src="assets/img/img1.png" alt=""></li>
-        <li> <img class="img-fluid" src="assets/img/img2.png" alt=""></li>
-        <li> <img class="img-fluid" src="assets/img/img3.png" alt=""></li>
-        <li> <img class="img-fluid" src="assets/img/img4.png" alt=""></li>
-        <li> <img class="img-fluid" src="assets/img/img5.png" alt=""></li>
-        <li> <img class="img-fluid" src="assets/img/img6.png" alt=""></li>
-        <li> <img class="img-fluid" src="assets/img/img3.png" alt=""></li>
-      </ul>
-    </div>
-   
-  </section>
-  <!-- banner-end -->
- <!-- section_info-start -->
-  <section class="section">
-    <div class="container">
-        <div class="top_info">
-             <h2> Exceptional products with end-to-end support and expert guidance </h2>
-             <p> At Stackgeeks, we offer a complete range of services that build up business value, from the initial idea and formulation of product strategy, through building a prototype and testing it with users, right to the creation of the product itself. </p>
-        </div>
-        <div class="row">
-            <div class="col-md-5 col-12">
-                <div class="info_lefwt"  data-aos="zoom-in-left">
-                      <h2> Research. Collaborate. Build. </h2>
-                      <p> Collaborate in real-time on endless digital solutions, Your next good idea exudate with us </p>
-                </div>
-            </div>
-            <div class="col-md-7 col-12 mb-lg-0 mb-3"  data-aos="zoom-in-right" data-aos-duration="3000">
-              <div class="info_lefwt text-left">
-                   <p>Give us your ideas, we’ll give you an app that your customers will love. Who trusts us? Entrepreneurs, directors, and CEOs. They love our customer-centric approach, our reputation, and our guarantee. Getting into the mobile app market is key to business growth in today’s market. Our designs are geared to generate revenue and grow your customer base. Let us help you catch up with your competitors with our end-to-end solutions.</p>
-              </div>
-            </div>
-            <div class="col-md-5 col-12" data-aos="fade-up" data-aos-duration="3000">
-                 <div class="row">
-                     <div class="col-6">
-                         <div class="info-imgs">
-                            <img src="assets/img/1.png" class="img-fluid" alt="">
-                            <p style=" color: #8d4caa;"> Unique and Creative designs for Product </p>
-                         </div>
-                     </div>
-                     <div class="col-6">
-                      <div class="info-imgs">
-                         <img src="assets/img/2.png" class="img-fluid" alt="">
-                         <p style="color:#7bebb9;"> React, React Native, Flutter for Futureready </p>
-                      </div>
-                     </div>
-                     <div class="col-6">
-                      <div class="info-imgs">
-                         <img src="assets/img/3.png" class="img-fluid" alt="">
-                         <p style="color:#e86684;"> React, React Native, Flutter for Futureready </p>
-                      </div>
-                     </div>
-                     <div class="col-6">
-                      <div class="info-imgs">
-                         <img src="assets/img/4.png" class="img-fluid" alt="">
-                         <p style="color:#3a82e2;"> React, React Native, Flutter for Futureready </p>
-                      </div>
-                     </div>
-                 </div>
-            </div>
-            <div class="col-md-7 col-12" data-aos="fade-up" data-aos-duration="3000">
-              <video autoplay="" muted="" loop="" playsinline="" width="100%" height="auto" class="screenshot__media">
-                <source src="https://stackgeeks.com/wp-content/themes/stcklanding/assets/images/home/video.mp4" type="video/mp4">
-              </video>
-            </div>
-        </div>
-    </div>
-  </section>
- <!-- section_info-end -->
- <!-- Industries-section-start -->
- <section class="section pt-0">
-    <div class="container">
-        <div class="row"  data-aos="zoom-in-left" data-aos-easing="linear"data-aos-duration="1500">
-             <div class="col-6">
-                   <div class="top_info text-left">
-                        <p>Industries</p>
-                        <h2>We co-create your product strategy of your industry to craft awesome digital experiences</h2>
-                   </div>
-             </div>
-        </div>
-        <div class="row mt-md-5 mt-3" data-aos="fade-up" data-aos-duration="3000">
-           <div class="col-12 col-md-8">
-                 <div class="indust_inner">
-                     <div class="indust_img">
-                          <img src="assets/img/5.png" class="img-fluid" alt="">
-                     </div>
-                     <div class="indust_info">
-                          <h4 class="m-0"> Healthcare </h4>
-                     </div>
-                 </div>
-           </div>
-           <div class="col-12 col-md-4">
-            <div class="indust_inner">
-                <div class="indust_img">
-                     <img src="assets/img/6.png" class="img-fluid" alt="">
-                </div>
-                <div class="indust_info">
-                     <h4 class="m-0">  Salon Apps  </h4>
-                </div>
-            </div>
-           </div>
-           <div class="col-12 col-md-4">
-              <div class="indust_inner">
-                  <div class="indust_img">
-                      <img src="assets/img/7.png" class="img-fluid" alt="">
-                  </div>
-                  <div class="indust_info">
-                      <h4 class="m-0">   Home services   </h4>
-                  </div>
-              </div>
-           </div>
-           <div class="col-12 col-md-4">
-            <div class="indust_inner">
-                <div class="indust_img">
-                    <img src="assets/img/8.png" class="img-fluid" alt="">
-                </div>
-                <div class="indust_info">
-                    <h4 class="m-0"> Fitness Apps  </h4>
-                </div>
-            </div>
-           </div>
-           <div class="col-12 col-md-4">
-             <div class="indust_inner">
-                <div class="indust_img">
-                    <img src="assets/img/9.png" class="img-fluid" alt="">
-                </div>
-                <div class="indust_info">
-                    <h4 class="m-0">  Pharmacy delivery   </h4>
-                </div>
-             </div>
-           </div>
-           <div class="col-12 col-md-4">
-            <div class="indust_inner">
-               <div class="indust_img main-img">
-                   <img src="assets/img/10.png" class="img-fluid" alt="">
-               </div>
-               <div class="indust_info">
-                   <h4 class="m-0">  Coworking  </h4>
-               </div>
-            </div>
-           </div>
-           <div class="col-12 col-md-4">
-            <div class="indust_inner">
-               <div class="indust_img">
-                   <img src="assets/img/11.png" class="img-fluid" alt="">
-               </div>
-               <div class="indust_info">
-                   <h4 class="m-0">  Grocery delivery </h4>
-               </div>
-            </div>
-            <div class="indust_inner">
-              <div class="indust_img">
-                  <img src="assets/img/13.png" class="img-fluid" alt="">
-              </div>
-              <div class="indust_info">
-                  <h4 class="m-0"> Education Apps </h4>
-              </div>
-            </div>
-           </div>
-           <div class="col-12 col-md-4">
-              <div class="indust_inner">
-                <div class="indust_img">
-                    <img src="assets/img/12.png" class="img-fluid" alt="">
-                </div>
-                <div class="indust_info">
-                    <h4 class="m-0">  Taxi Apps  </h4>
-                </div>
-              </div>
-              <div class="indust_inner">
-                <div class="indust_img">
-                    <img src="assets/img/14.png" class="img-fluid" alt="">
-                </div>
-                <div class="indust_info">
-                    <h4 class="m-0">  Food delivery  </h4>
-                </div>
-              </div>
-           </div>
-           <div class="col-12 col-md-4">
-              <div class="indust_inner">
-                  <div class="indust_img">
-                      <img src="assets/img/15.png" class="img-fluid" alt="">
-                  </div>
-                  <div class="indust_info">
-                      <h4 class="m-0"> New App  </h4>
-                  </div>
-              </div>
-           </div>
-           <div class="col-12 col-md-8">
-              <div class="indust_inner">
-                  <div class="indust_img">
-                      <img src="assets/img/16.png" class="img-fluid" alt="">
-                  </div>
-                  <div class="indust_info">
-                      <h4 class="m-0"> Real Time Chat App  </h4>
-                  </div>
-              </div>
-           </div>
-           <div class="col-12 col-md-4">
-            <div class="indust_inner">
-                <div class="indust_img">
-                    <img src="assets/img/17.png" class="img-fluid" alt="">
-                </div>
-                <div class="indust_info">
-                    <h4 class="m-0">  Dating App  </h4>
-                </div>
-            </div>
-           </div>
-           <div class="col-12 col-md-4">
-            <div class="indust_inner">
-                <div class="indust_img">
-                    <img src="assets/img/18.png" class="img-fluid" alt="">
-                </div>
-                <div class="indust_info">
-                    <h4 class="m-0"> Dog Store </h4>
-                </div>
-            </div>
-           </div>
-           <div class="col-12 col-md-4">
-            <div class="indust_inner">
-                <div class="indust_img">
-                    <img src="assets/img/19.png" class="img-fluid" alt="">
-                </div>
-                <div class="indust_info">
-                    <h4 class="m-0"> Jewellery Store </h4>
-                </div>
-            </div>
-           </div>
-        </div>
-    </div>
- </section>
- <!-- Industries-section-end -->
- <!-- blog section start -->
- <section class="section" style="background:#F7F6F6;">
-   <div class="container">
-      <div class="top_info text-left">
-        <h2> Our blog</h2>
-      </div>
-      <div class="row" data-aos="fade-up" data-aos-duration="3000">
-          <div class="col-lg-4 col-12">
-            <div class="blog_inner">
-                <div class="blog_img">
-                    <img src="assets/img/20.png" class="img-fluid" alt="">
-                </div>
-                <div class="box_info">
-                     <h4> User Experience Design: The future of telecom industry </h4>
-                     <div class="user_blog pt-2">
-                          <img src="assets/img/user.jfif" alt="">
-                          <div class="user_detelis">
-                                  <h5 class="mb-0"> Prince Singla </h5>
-                                  <p> Owner </p>
-                          </div>
-                     </div>
-                </div>
-            </div>
-          </div>
-      </div>
-   </div>
- </section>
- <!-- blog section end -->
-<!-- Integration-section-start -->
- <section class="section">
-     <div class="container">
-        <div class="top_info">
-          <h2>Integration partners</h2>
-        </div>
-        <div class="intergration_inner pt-lg-5 pt-3">
-             <ul class="intergration_imgs">
-                  <li><img src="assets/img/product1.png" class="img-fluid" alt=""></li>
-                  <li><img src="assets/img/product2.png" class="img-fluid" alt=""></li>
-                  <li><img src="assets/img/product3.png" class="img-fluid" alt=""></li>
-                  <li><img src="assets/img/product4.png" class="img-fluid" alt=""></li>
-                  <li><img src="assets/img/product5.png" class="img-fluid" alt=""></li>
-                  <li><img src="assets/img/product6.png" class="img-fluid" alt=""></li>
-
-             </ul>
-        </div>
-        <div class="row pt-lg-5 pt-4">
-            <div class="col-lg-4 col-12 mb-2 p-md-0 p-3" data-aos="zoom-in-right" data-aos-duration="1500">
-                 <div class="row">
-                    <div class="col-6 p-0">
-                         <img src="assets/img/info1.png" style="width:100%" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-6 p-0">
-                      <img src="assets/img/info2.png"style="width:100%" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-12 p-0">
-                        <div class="intergration_img">
-                           <img src="assets/img/info3.png" style="width:100%" class="img-fluid" alt="">
-                           <div class="play_img">
-                                <a href="#"><img src="assets/img/play.png" alt=""></a>
-                           </div>
-                        </div>
-                    </div>
-                    <div class="col-12  p-0">
-                         <div class="info_lefwt text-left">
-                              <h4> Let's build something amazing together! </h2>
-                              <p style="font-size: 14px;"> We put you at the centre of everything we do. Top class service and a memorable experience awaits.. </p>
-                              <a href="#" class=" main_btn"> Let's Talk </a>
-                         </div>
-                    </div>
-                 </div>
-            </div>
-            <div class="col-lg-8 col-12 d-lg-block d-none  p-md-0 p-3" data-aos="zoom-in">
-                <img src="assets/img/info.png"style="width:100%" class="img-fluid" alt="">
-            </div>
-        </div>
-     </div>
- </section>
-<!-- Integration-section-end -->
-<!-- loction_section_start -->
-
- <section class="section main_loction_parant">
-    <div class="container py-3">
-      <div class="top_info text-left">
-           <p>Locations</p>
-           <h2>The places we call home</h2>
-      </div>
-      <div class="bg_img">
+  </head>
+  <body>
+    <header class="wrapper">
+      <div class="container">
         <div class="">
-          <div class="row rom_inner">
-            <div class="col-lg-4 col-sm-6 mb-3">
-                 <div class="loction_inner">
-                      <div class="loction_top_info">
-                           <h5>INDIA</h5>
-                           <h3> Chandigarh </h3>
-                           <address>
-                               <b> Stackgeeks </b><br>
-                               Sco 50-51, <br>
-                               3rd floor, Chandigarh 
-                           </address>
-                           <p><a href="#"> +91 978-090-2606 </a></p>
-                           <p><a href="#"> hello@stackgeeks.com </a></p>
+          <nav>
+            <input type="checkbox" id="show-search" />
+            <input type="checkbox" id="show-menu" />
+            <label for="show-menu" class="menu-icon"
+              ><i class="fa fa-bars" aria-hidden="true"></i
+            ></label>
+            <div class="content">
+              <div class="logo">
+                <a href="#"
+                  ><img src="assets/img/logo.png" alt="" />
+                  <span class="logo_span"
+                    >counsil of European <br />
+                    national Top-Level <br />
+                    Domain registries</span
+                  ></a
+                >
+              </div>
+              <ul class="links">
+                <li><a href="#">About us </a></li>
+                <li>
+                  <a href="#" class="desktop-link">Policy </a>
+                  <input type="checkbox" id="show-features" />
+                  <label for="show-features">Policy </label>
+                  <ul class="droupdonw">
+                    <li class="mr-lg-5 mr-0">
+                      <div class="header_links">
+                        <h2>Policy</h2>
                       </div>
-                      <div class="loction_img">
-                           <img src="assets/img/loction1.png" class="img-fluid" alt="">
+                    </li>
+                    <li>
+                      <a href="#">EU Policy</a><br /><a href="#"
+                        >Internet governance</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#">Policy documents</a><br /><a href="#"
+                        >Policy updates</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#">News </a></li>
+                <li><a href="#">Library </a></li>
+                <li>
+                  <a href="#" class="desktop-link">About the industry </a>
+                  <input type="checkbox" id="show-services" />
+                  <label for="show-services">About the industry </label>
+                  <ul class="droupdonw">
+                    <li class="mr-lg-5 mr-0">
+                      <div class="header_links">
+                        <h2 style="font-size: 22px">About the industry</h2>
                       </div>
-                 </div>
+                    </li>
+                    <li>
+                      <a href="#">The DNS</a><br /><a href="#">ccTLD Registry</a
+                      ><br /><a href="#">DNSSEC</a>
+                    </li>
+                    <li>
+                      <a href="#">IDNS</a><br /><a href="#">New gTDLsWhois</a
+                      ><br /><a href="#">IPV6</a>
+                    </li>
+                    <li>
+                      <a href="#">ICAN / IANA</a><br /><a href="#">Acronyms</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="d-lg-none d-block"><a href="#">Statistics</a></li>
+                <li class="d-lg-none d-block"><a href="#">Member area</a></li>
+              </ul>
             </div>
-            <div class="col-lg-4 col-sm-6  mb-3">
-              <div class="loction_inner">
-                   <div class="loction_top_info">
-                        <h5> CANADA </h5>
-                        <h3>  Toronto  </h3>
-                        <address>
-                            <b> Stackgeeks </b><br>
-                            57 Monkton circle,  <br>
-                            Brampton, Canada  
-                        </address>
-                        <p><a href="#">  +1 636-333-0854  </a></p>
-                        <p><a href="#">  info@stackgeeks.com  </a></p>
-                   </div>
-                   <div class="loction_img">
-                        <img src="assets/img/loction1.png" class="img-fluid" alt="">
-                   </div>
+            <ul class="side-link d-none d-lg-flex m-0">
+              <li><a href="#">Statistics</a></li>
+              <li><a href="#">Member area</a></li>
+            </ul>
+            <div class="left_icons">
+              <i class="fa fa-search" aria-hidden="true"></i>
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- banner-start -->
+    <section class="banner">
+      <div class="banner_inner">
+        <!-- <img
+          src="assets/img/banner-bg.jpg"
+          style="object-fit: cover"
+          class="img-fluid w-100"
+          alt=""
+        /> -->
+        <div class="container">
+          <div class="banner_info">
+            <h2>
+              Connecting<br />
+              European<br />
+              dots
+            </h2>
+            <p>About us</p>
+          </div>
+          <!-- <div class="banner_icons">
+                     <ul>
+                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+
+                     </ul>
+               </div> -->
+          <div class="animation_bottom">
+            <p></p>
+            <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- news_section_start -->
+    <section class="section blog__and__news">
+      <div class="container">
+        <div class="top_info">
+          <h2>Latest news</h2>
+          <p>View all</p>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <ol class="carousel-indicators">
+            <li class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner mt-lg-5 mt-3">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-4 my-lg-0 my-3">
+                  <div class="news_inner">
+                    <div class="new_top">
+                      <p>news</p>
+                      <span>23-09-2021</span>
+                    </div>
+                    <div class="news_img">
+                      <img
+                        src="assets/img/new3.png"
+                        class="img-fluid w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div class="news_loar_info">
+                      <h2>The Administrative Working Group meets virtually</h2>
+                    </div>
+                    <div class="local_reviews mt-1">
+                      <img
+                        src="assets/img/img2.png"
+                        style="width: 30px"
+                        alt=""
+                      />
+                      <span class="ml-2">Peter Van Roste</span>
+                    </div>
+                    <div class="readmore">Read more</div>
+                  </div>
+                </div>
+                <div class="col-lg-4 my-lg-0 my-3">
+                  <div class="news_inner">
+                    <div class="new_top">
+                      <p>U POlicy update</p>
+                      <span>23-09-2021</span>
+                    </div>
+                    <div class="news_img">
+                      <img
+                        src="assets/img/new2.png"
+                        class="img-fluid w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div class="news_loar_info">
+                      <h2>EU Policy Update Summer 2020</h2>
+                    </div>
+                    <div class="local_reviews mt-1">
+                      <img
+                        src="assets/img/img1.png"
+                        style="width: 30px"
+                        alt=""
+                      />
+                      <span class="ml-2">Lydia Stoddart</span>
+                    </div>
+                    <div class="readmore">Read more</div>
+                  </div>
+                </div>
+                <div class="col-lg-4 my-lg-0 my-3">
+                  <div class="news_inner">
+                    <div class="new_top">
+                      <p>news</p>
+                      <span>23-09-2021</span>
+                    </div>
+                    <div class="news_img">
+                      <img
+                        src="assets/img/new1.png"
+                        class="img-fluid w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div class="news_loar_info">
+                      <h2>
+                        Joint press release: New Digital Services Act Should
+                        Support Not Restrict the Internet
+                      </h2>
+                    </div>
+                    <div class="local_reviews mt-1">
+                      <img
+                        src="assets/img/img1.png"
+                        style="width: 30px"
+                        alt=""
+                      />
+                      <span class="ml-2">Lydia Stoddart</span>
+                    </div>
+                    <div class="readmore">Read more</div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-4 col-sm-6  mb-3">
-              <div class="loction_inner">
-                   <div class="loction_top_info">
-                        <h5>  USA  </h5>
-                        <h3>   New York   </h3>
-                        <address>
-                            <b> Stackgeeks </b><br>
-                            62 W 40th St Floor 11, New  <br>
-                            York, NY 10018, United States   
-                        </address>
-                        <p><a href="#">   +1 209-203-7323 </a></p>
-                        <p><a href="#">  info@stackgeeks.com  </a></p>
-                   </div>
-                   <div class="loction_img">
-                        <img src="assets/img/loction1.png" class="img-fluid" alt="">
-                   </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4 my-lg-0 my-3">
+                  <div class="news_inner">
+                    <div class="new_top">
+                      <p>news</p>
+                      <span>23-09-2021</span>
+                    </div>
+                    <div class="news_img">
+                      <img
+                        src="assets/img/new3.png"
+                        class="img-fluid w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div class="news_loar_info">
+                      <h2>The Administrative Working Group meets virtually</h2>
+                    </div>
+                    <div class="local_reviews mt-1">
+                      <img
+                        src="assets/img/img2.png"
+                        style="width: 30px"
+                        alt=""
+                      />
+                      <span class="ml-2">Peter Van Roste</span>
+                    </div>
+                    <div class="readmore">Read more</div>
+                  </div>
+                </div>
+                <div class="col-lg-4 my-lg-0 my-3">
+                  <div class="news_inner">
+                    <div class="new_top">
+                      <p>U POlicy update</p>
+                      <span>23-09-2021</span>
+                    </div>
+                    <div class="news_img">
+                      <img
+                        src="assets/img/new2.png"
+                        class="img-fluid w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div class="news_loar_info">
+                      <h2>EU Policy Update Summer 2020</h2>
+                    </div>
+                    <div class="local_reviews mt-1">
+                      <img
+                        src="assets/img/img1.png"
+                        style="width: 30px"
+                        alt=""
+                      />
+                      <span class="ml-2">Lydia Stoddart</span>
+                    </div>
+                    <div class="readmore">Read more</div>
+                  </div>
+                </div>
+                <div class="col-lg-4 my-lg-0 my-3">
+                  <div class="news_inner">
+                    <div class="new_top">
+                      <p>news</p>
+                      <span>23-09-2021</span>
+                    </div>
+                    <div class="news_img">
+                      <img
+                        src="assets/img/new1.png"
+                        class="img-fluid w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div class="news_loar_info">
+                      <h2>
+                        Joint press release: New Digital Services Act Should
+                        Support Not Restrict the Internet
+                      </h2>
+                    </div>
+                    <div class="local_reviews mt-1">
+                      <img
+                        src="assets/img/img1.png"
+                        style="width: 30px"
+                        alt=""
+                      />
+                      <span class="ml-2">Lydia Stoddart</span>
+                    </div>
+                    <div class="readmore">Read more</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4 my-lg-0 my-3">
+                  <div class="news_inner">
+                    <div class="new_top">
+                      <p>news</p>
+                      <span>23-09-2021</span>
+                    </div>
+                    <div class="news_img">
+                      <img
+                        src="assets/img/new3.png"
+                        class="img-fluid w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div class="news_loar_info">
+                      <h2>The Administrative Working Group meets virtually</h2>
+                    </div>
+                    <div class="local_reviews mt-1">
+                      <img
+                        src="assets/img/img2.png"
+                        style="width: 30px"
+                        alt=""
+                      />
+                      <span class="ml-2">Peter Van Roste</span>
+                    </div>
+                    <div class="readmore">Read more</div>
+                  </div>
+                </div>
+                <div class="col-lg-4 my-lg-0 my-3">
+                  <div class="news_inner">
+                    <div class="new_top">
+                      <p>U POlicy update</p>
+                      <span>23-09-2021</span>
+                    </div>
+                    <div class="news_img">
+                      <img
+                        src="assets/img/new2.png"
+                        class="img-fluid w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div class="news_loar_info">
+                      <h2>EU Policy Update Summer 2020</h2>
+                    </div>
+                    <div class="local_reviews mt-1">
+                      <img
+                        src="assets/img/img1.png"
+                        style="width: 30px"
+                        alt=""
+                      />
+                      <span class="ml-2">Lydia Stoddart</span>
+                    </div>
+                    <div class="readmore">Read more</div>
+                  </div>
+                </div>
+                <div class="col-lg-4 my-lg-0 my-3">
+                  <div class="news_inner">
+                    <div class="new_top">
+                      <p>news</p>
+                      <span>23-09-2021</span>
+                    </div>
+                    <div class="news_img">
+                      <img
+                        src="assets/img/new1.png"
+                        class="img-fluid w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div class="news_loar_info">
+                      <h2>
+                        Joint press release: New Digital Services Act Should
+                        Support Not Restrict the Internet
+                      </h2>
+                    </div>
+                    <div class="local_reviews mt-1">
+                      <img
+                        src="assets/img/img1.png"
+                        style="width: 30px"
+                        alt=""
+                      />
+                      <span class="ml-2">Lydia Stoddart</span>
+                    </div>
+                    <div class="readmore">Read more</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- news_section_end -->
+    <!-- publication-start -->
+    <section class="section feature-section bg-gray">
+      <div class="container">
+        <div class="top_info">
+          <h2>Highlighted publications</h2>
+          <p>View all</p>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-3 col-md-4 col-12 my-lg-0 my-3">
+            <div class="news_inner publication_inner">
+              <div class="local_reviews d-flex mt-1">
+                <span class="icons_publi">
+                  <i class="fa fa-volume-up" aria-hidden="true"></i
+                ></span>
+                <span class="ml-2">Marketing</span>
+              </div>
+              <h2 class="publication_h2">CENTR Tech Trends Watch Q2/2020</h2>
+              <div class="readmore">Download</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-12 my-lg-0 my-3">
+            <div class="news_inner publication_inner">
+              <div class="local_reviews d-flex mt-1">
+                <span class="icons_publi">
+                  <i class="fa fa-file-text-o" aria-hidden="true"></i
+                ></span>
+                <span class="ml-2">Policy documents</span>
+              </div>
+              <h2 class="publication_h2">
+                CENTRstats Global TLD Report 2020/2
+              </h2>
+              <div class="readmore">Download</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-12 my-lg-0 my-3">
+            <div class="news_inner publication_inner">
+              <div class="local_reviews d-flex mt-1">
+                <span class="icons_publi"
+                  ><i class="fa fa-calendar-check-o" aria-hidden="true"></i
+                ></span>
+                <span class="ml-2">External events</span>
+              </div>
+              <h2 class="publication_h2">CENTR Report on ICANN68</h2>
+              <div class="readmore">Download</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-12 my-lg-0 my-3">
+            <div class="news_inner">
+              <div class="local_reviews d-flex mt-1">
+                <span class="icons_publi"
+                  ><i class="fa fa-calendar-check-o" aria-hidden="true"></i
+                ></span>
+                <span class="ml-2">External events</span>
+              </div>
+              <h2 class="publication_h2">CENTR Report on ICANN68</h2>
+              <div class="readmore">Download</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- publication-end -->
+    <!-- center-section -->
+    <section class="centerStar">
+      <div class="container">
+        <div class="center_inner_2">
+          <div class="left_side">
+            <div class="center_left">
+              <img src="assets/img/new4.png" class="img-fluid w-100" alt="" />
+            </div>
+            <div class="center_right center__right2">
+              <div class="news_inner">
+                <div class="center_info center-info-changed">
+                  <h2>Centr Stats</h2>
+                </div>
+                <div class="news_loar_info center_loar_info">
+                  <h2>
+                    CENTRstats is a data platform from CENTR (The Council of
+                    European Top-Level Domain Registries) aimed at centralising
+                    and visualising TLD and domain name related data for the
+                    benefit of its members (mostly European ccTLD registries).
+                  </h2>
+                </div>
+                <div class="readmore">Read more</div>
+              </div>
+            </div>
+          </div>
+          <div class="left_side left-side-changed">
+            <div class="center_right">
+              <div class="news_inner news_inner2">
+                <div class="center_info center_info2">
+                  <h2>EU Policy at Centr</h2>
+                </div>
+                <div class="news_loar_info center_loar_info center_loar_info2">
+                  <h2>
+                    CENTR strives to be the voice of the domain name system
+                    (DNS) community at EU-level, the centre of intelligence and
+                    a reliable partner on all things related to the DNS through
+                    several policy objectives.
+                  </h2>
+                </div>
+                <div class="readmore readmore_two">Read more</div>
+              </div>
+            </div>
+            <div class="center_left">
+              <img src="assets/img/new5.png" class="img-fluid w-100" alt="" />
+            </div>
+          </div>
+          <div class="left_side">
+            <div class="center_left">
+              <img src="assets/img/new6.png" class="img-fluid w-100" alt="" />
+            </div>
+            <div class="center_right center__right2">
+              <div class="news_inner">
+                <div class="center_info center-info-changed">
+                  <h2>HIGHLIGHT</h2>
+                </div>
+                <div class="news_loar_info center_loar_info">
+                  <h2>
+                    CENTRstats is a data platform from CENTR (The Council of
+                    European Top-Level Domain Registries) aimed at centralising
+                    and visualising TLD and domain name related data for the
+                    benefit of its members (mostly European ccTLD registries).
+                  </h2>
+                </div>
+                <div class="readmore">Read more</div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
- </section>
-<!-- loction_section_end -->
+    </section>
+    <!-- center_section-end -->
+    <!-- subscribe-section -->
+    <section class="section">
+      <div class="container">
+        <div class="top_info d-block text-center">
+          <h2 class="top_heading">Subscribe to our newsletter</h2>
+          <span class="top_span mt-3"
+            >We publish a Weekly Newsletter with our latest updates, news from
+            our members and industry news, as well as a monthly EU Policy
+            Update.</span
+          >
+        </div>
+        <div class="subscribe_parant mt-lg-4 mt-md-3">
+          <form class="subscribe_inner" action="#">
+            <input
+              class="subscribe_input"
+              type="text"
+              placeholder="first name"
+            />
+            <input
+              class="subscribe_input"
+              type="text"
+              placeholder="last name"
+            />
+            <input class="subscribe_input" type="email" placeholder="email" />
 
-<!-- footer -->
- <footer class="footer">
-     <div class="container">
-          <div class="footer_inner">
-              <div class="row">
-                   <div class="col-md my-lg-0 my-3">
-                        <a href="#"><img src="assets/img/logo.png" width="180px" class="img-fluid" alt=""></a>
-                   </div>
-                   <div class="col-6 col-md my-lg-0 my-3">
-                        <div class="footer_links">
-                            <h4> Quick Links </h4>
-                             <ul>
-                                 <li><a href="#"> Industries </a></li>
-                                 <li><a href="#">  Services  </a></li>
-                                 <li><a href="#">  Portfolio  </a></li>
-                                 <li><a href="#">  Blogs  </a></li>
-                             </ul>
-                        </div>
-                   </div>
-                   <div class="col-6 col-md my-lg-0 my-3">
-                    <div class="footer_links">
-                        <h4>  Services  </h4>
-                         <ul>
-                             <li><a href="#">  Uber like App  </a></li>
-                             <li><a href="#">   Website Develpment   </a></li>
-                             <li><a href="#">   App Development   </a></li>
-                             <li><a href="#">   UI/UX Designing   </a></li>
-                         </ul>
-                    </div>
-                   </div>
-                   <div class="col-md my-lg-0 my-3">
-                    <div class="footer_links">
-                        <h4> Industries </h4>
-                         <ul>
-                             <li><a href="#">   Food   </a></li>
-                             <li><a href="#">   E-commerce   </a></li>
-                             <li><a href="#">   Cab Booking   </a></li>
-                             <li><a href="#">   Delivery App   </a></li>
-                         </ul>
-                    </div>
-                   </div>
-                   <div class="col-md my-lg-0 my-3">
-                    <div class="footer_links">
-                        <h4> Signup for Up to date </h4>
-                        <div class="footer_input">
-                             <form action="#">
-                                  <input type="text" class="input_info" value="Email">
-                                  <input type="submit" class="input_btn">
-                             </form>
+            <div class="subscribe_checkbox">
+              <div class="d-flex my-2">
+                <input type="checkbox" id="check1" />
+                <label for="check1"
+                  >I agree to the
+                  <span style="color: #fc4349"> Privacy policiy*</span></label
+                >
+              </div>
+              <div class="d-flex my-2">
+                <input type="checkbox" id="check2" />
+                <label for="check2"
+                  >I would like to subscribe to Weekly newsletter</label
+                >
+              </div>
+              <div class="d-flex my-2">
+                <input type="checkbox" id="check3" />
+                <label for="check3"
+                  >would like to subscribe to EU Policy update</label
+                >
+              </div>
+            </div>
+            <div class="subscribe_btn">
+              <button type="submit" class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- subscribe-section-end -->
 
-                        </div>
-                        <div class="icons mt-3">
-                             <h4> Keep in touch </h4>
-                             <div class="social_icons">
-                                  <a href="#"> <i  class="fa fa-facebook"></i></a>
-                                  <a href="#"><i class="fa fa-linkedin"></i></a>
-                                  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                  <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                             </div>
-                        </div>
-                    </div>
-                   </div>
-              </div>
-              <div class="loar_footer">
-                   <p> ©2021 Stackgeeks. All Rights Reserved. </p>
-                   <div class="loar_right">
-                        <a href="#"> Terms </a>
-                        <a href="#">  Privacy  </a>
-                        <a href="#">  Cookie  </a>
-                   </div>
-              </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_inner">
+          <div class="top_footer">
+            <img src="assets/img/logo2.png" alt="" />
+            <span
+              >counsil of European national <br />
+              Top-Level Domain registries</span
+            >
           </div>
-     </div>
- </footer>
-<!-- footer-end -->
+          <div class="row mt-lg-4 mt-3">
+            <div class="col-lg-4 col-md-3 col-6 my-lg-0 my-2">
+              <div class="footer_links footer_link2" style="color: #fff">
+                <h2>Contact</h2>
+                <ul class="mt-lg-4 mt-3 footer-col">
+                  <li>
+                    Belliardstraat 20 (6th floor)<br />
+                    1040 Brussels<br />
+                    Belgium<br />
+                    T: +32 2 627 5550<br />
+                    M: secretariat@centr.org
+                  </li>
+                </ul>
+                <div class="footer_icons mt-lg-5 mt-3">
+                  <ul>
+                    <li>
+                      <a href="#" class="ml-0"
+                        ><i class="fa fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-youtube-play"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6 my-lg-0 my-2">
+              <div class="footer_links d-flex" style="color: #fff">
+                <ul class="footer-col">
+                  <h2>Sitemap</h2>
+                  <li class="mt-4">
+                    <a href="#" class="text-light">About us</a>
+                  </li>
+                  <li><a href="#" class="text-light">Industry</a></li>
+                  <li><a href="#" class="text-light">Policy</a></li>
+                  <li><a href="#" class="text-light">News and events</a></li>
+                  <li><a href="#" class="text-light">Library</a></li>
+                </ul>
+                <ul class="mt-5 footer-col">
+                  <li><a href="#" class="text-light">Search</a></li>
+                  <li><a href="#" class="text-light">Statistics</a></li>
+                  <li><a href="#" class="text-light">Member area</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-3 col-6 my-lg-0 my-2">
+              <div
+                class="footer_links footer_ul footer-col"
+                style="color: #fff"
+              >
+                <h2>Privacy</h2>
+                <ul class="mt-4">
+                  <li><a href="#" class="text-light">Privacy policy</a></li>
+                  <li><a href="#" class="text-light">Cookies</a></li>
+                  <li>
+                    <a href="#" class="text-light">Responsible disclosure</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="loar_footer py-3">
+            <p class="text-light" style="text-align: center; font-size: 12px">
+              CENTER - all right reserved 2021
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/style.js"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script src="assets/js/header.js"></script>
-<script src="assets/js/aos.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script src="assets/js/slick.js"></script>
-</body>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/style.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script>
+      $(".banner-slider").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        infinite: true,
+        prevArrow:
+          '<span class="prev"><i class="fal fa-long-arrow-alt-left"></i></span>',
+        nextArrow:
+          '<span class="next"><i class="fal fa-long-arrow-alt-right"></i></span>',
+        dots: true,
+        arrows: true,
+      });
+
+      $(".service-slider").slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        infinite: true,
+        dots: true,
+        arrows: false,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    </script>
+  </body>
 </html>

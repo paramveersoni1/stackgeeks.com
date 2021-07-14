@@ -10,12 +10,15 @@ h1 span{
  .header {
    padding: 0 45px;
    z-index: 111;
-   position: fixed !important;
-   background: #ffffff !important;
+   background: transparent;
+   position: relative;
    box-shadow: 0 0 5px #a5a5a5;
    width: 100%;
 }
- 
+ .bg-header.scrolled{
+   position: fixed ;
+   background: #ffffff ;
+ }
  #logo img{
    width: 175px;
     }
@@ -45,6 +48,9 @@ h1 span{
     padding: 10px 20px;
 
     display: inline-block;
+ }
+ nav ul li a:hover{
+    color: #000;
  }
  .top{
    font-size: 9px;
